@@ -1,0 +1,114 @@
+{
+  "heroSection": {
+    "greeting": "Merhaba!",
+    "intro": "Ben bir kahramanım",
+    "profileImage": "profile-image.jpg",
+    "socials": [
+      {
+        "icon": "logo-linkeding.png",
+        "alt_text": "linkedin",
+        "link": "https://example.com"
+      },
+      {
+        "icon": "logo-github.png",
+        "alt_text": "github",
+        "link": "https://github.com"
+      }
+    ],
+    "ctaHTML": "<strong>Amsterdam</strong>'da <strong>Frontend Developer</strong> olarak iş arıyorum"
+  },
+  "skillsSection": {
+    "title": "Yetenekler",
+    "skills": [
+      {
+        "name": "HTML",
+        "image": "icon-html.png"
+      },
+      {
+        "name": "CSS",
+        "image": "icon-css.png"
+      },
+      {
+        "name": "JavaScript",
+        "image": "icon-js.png"
+      }
+    ]
+  },
+  "profileSection": {
+    "title": "Profil",
+    "basicInfo": {
+      "title": "Temel Bilgiler",
+      "items": [
+        {
+          "label": "İsim",
+          "value": "John Doe"
+        },
+        {
+          "label": "Konum",
+          "value": "Amsterdam, Hollanda"
+        },
+        {
+          "label": "E-posta",
+          "value": "mail@mail.com"
+        }
+      ]
+    }
+  },
+  "projectsSection": {
+    "title": "Projeler",
+    "projects": [
+      {
+        "title": "Proje 1",
+        "description": "Proje 1 açıklaması",
+        "image": "project-1.jpg",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          {
+            "label": "Github'da Görüntüle",
+            "link": "https://github.com"
+          },
+          {
+            "label": "Uygulamaya Git",
+            "link": "https://example.com"
+          }
+        ]
+      },
+      {
+        "title": "Proje 2",
+        "description": "Proje 2 açıklaması",
+        "image": "project-2.jpg",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          {
+            "label": "Github'da Görüntüle",
+            "link": "https://github.com"
+          },
+          {
+            "label": "Uygulamaya Git",
+            "link": "https://example.com"
+          }
+        ]
+      }
+    ]
+  },
+  "footerSection": {
+    "cta": "Birlikte çalışalım",
+    "links": [
+      {
+        "label": "Github",
+        "link": "#",
+        "color": "black"
+      },
+      {
+        "label": "Kişisel Blog",
+        "link": "#",
+        "color": "blue"
+      },
+      {
+        "label": "Instagram",
+        "link": "#",
+        "color": "orange"
+      }
+    ]
+  }
+}

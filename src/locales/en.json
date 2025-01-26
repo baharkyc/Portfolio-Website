@@ -1,0 +1,114 @@
+{
+  "heroSection": {
+    "greeting": "Hi!",
+    "intro": "I'm a hero",
+    "profileImage": "profile-image.jpg",
+    "socials": [
+      {
+        "icon": "logo-linkeding.png",
+        "alt_text": "linkedin",
+        "link": "https://example.com"
+      },
+      {
+        "icon": "logo-github.png",
+        "alt_text": "github",
+        "link": "https://github.com"
+      }
+    ],
+    "ctaHTML": "Currently looking for a job as a <strong>Frontend Developer</strong> in <strong>Amsterdam</strong>"
+  },
+  "skillsSection": {
+    "title": "Skills",
+    "skills": [
+      {
+        "name": "HTML",
+        "image": "icon-html.png"
+      },
+      {
+        "name": "CSS",
+        "image": "icon-css.png"
+      },
+      {
+        "name": "JavaScript",
+        "image": "icon-js.png"
+      }
+    ]
+  },
+  "profileSection": {
+    "title": "Profile",
+    "basicInfo": {
+      "title": "Basic Info",
+      "items": [
+        {
+          "label": "Name",
+          "value": "John Doe"
+        },
+        {
+          "label": "Location",
+          "value": "Amsterdam, Netherlands"
+        },
+        {
+          "label": "Email",
+          "value": "mail@mail.com"
+        }
+      ]
+    }
+  },
+  "projectsSection": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Project 1",
+        "description": "Description of project 1",
+        "image": "project-1.jpg",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          {
+            "label": "View on Github",
+            "link": "https://github.com"
+          },
+          {
+            "label": "Go to App",
+            "link": "https://example.com"
+          }
+        ]
+      },
+      {
+        "title": "Project 2",
+        "description": "Description of project 2",
+        "image": "project-2.jpg",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "links": [
+          {
+            "label": "View on Github",
+            "link": "https://github.com"
+          },
+          {
+            "label": "Go to App",
+            "link": "https://example.com"
+          }
+        ]
+      }
+    ]
+  },
+  "footerSection": {
+    "cta": "Let's work together",
+    "links": [
+      {
+        "label": "Github",
+        "link": "#",
+        "color": "black"
+      },
+      {
+        "label": "Personal Blog",
+        "link": "#",
+        "color": "blue"
+      },
+      {
+        "label": "Instagram",
+        "link": "#",
+        "color": "orange"
+      }
+    ]
+  }
+}
