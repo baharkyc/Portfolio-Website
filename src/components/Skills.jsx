@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <section className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="container">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-primary dark:text-white mb-12">
           {skillsSection.title}
         </h2>
         
@@ -32,10 +32,10 @@ const Skills = () => {
                 className="group p-6 bg-white dark:bg-gray-900 rounded-xl shadow-sm hover:shadow-md transition-all duration-300"
               >
                 <div className="flex flex-col items-center space-y-4">
-                  <div className="p-3 bg-primary-50 dark:bg-primary-900/20 rounded-lg group-hover:scale-110 transition-transform duration-300">
-                    <Icon className="w-8 h-8 text-primary-600 dark:text-primary-400" />
+                  <div className="p-3 bg-primary dark:bg-primary rounded-lg group-hover:scale-110 transition-transform duration-300">
+                    <Icon className="w-8 h-8 text-primary dark:text-primary" />
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  <h3 className="text-lg font-semibold text-primary dark:text-white">
                     {skill.name}
                   </h3>
                 </div>

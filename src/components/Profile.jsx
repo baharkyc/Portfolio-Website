@@ -18,14 +18,14 @@ const Profile = () => {
   return (
     <section className="py-20">
       <div className="container">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-secondary dark:text-white mb-12">
           {profileSection.title}
         </h2>
         
         <div className="max-w-2xl mx-auto">
-          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg overflow-hidden">
+          <div className="dark:bg-gray-900 rounded-2xl overflow-hidden">
             <div className="p-8">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
+              <h3 className="text-3xl font-thin text-text-secondary dark:text-white mb-6">
                 {profileSection.basicInfo.title}
               </h3>
               
@@ -39,10 +39,10 @@ const Profile = () => {
                         <Icon className="w-5 h-5 text-gray-600 dark:text-gray-300" />
                       </div>
                       <div>
-                        <p className="text-sm text-gray-500 dark:text-gray-400">
+                        <p className="text-lg font-light text-secondary dark:text-gray-400">
                           {item.label}
                         </p>
-                        <p className="text-gray-900 dark:text-white font-medium">
+                        <p className="text-text-secondary font-light dark:text-white">
                           {item.value}
                         </p>
                       </div>
