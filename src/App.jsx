@@ -41,7 +41,7 @@ function AppContent() {
 
 function App() {
   return (
-    <Router>
+    <Router>  
       <ThemeProvider>
         <LanguageProvider>
           <AppContent />
