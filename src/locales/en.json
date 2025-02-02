@@ -1,21 +1,21 @@
 {
   "heroSection": {
     "greeting": "Hi!",
-    "intro": "I'm a hero",
+    "intro": "I'm a fullstack developer.",
     "profileImage": "profile-image.jpg",
     "socials": [
       {
         "icon": "logo-linkeding.png",
         "alt_text": "linkedin",
-        "link": "https://example.com"
+        "link": "https://www.linkedin.com/in/bahar-okuyucu/"
       },
       {
         "icon": "logo-github.png",
         "alt_text": "github",
-        "link": "https://github.com"
+        "link": "https://github.com/baharkyc"
       }
     ],
-    "ctaHTML": "Currently looking for a job as a <strong>Frontend Developer</strong> in <strong>Amsterdam</strong>"
+    "ctaHTML": "Currently looking for a job as <strong>Frontend Developer</strong> in <strong>Istanbul</strong>"
   },
   "skillsSection": {
     "title": "Skills",
@@ -31,6 +31,10 @@
       {
         "name": "JavaScript",
         "image": "icon-js.png"
+      },
+      {
+        "name": "react",
+        "image": "react-js.png"
       }
     ]
   },
@@ -41,18 +45,22 @@
       "items": [
         {
           "label": "Name",
-          "value": "John Doe"
+          "value": "Bahar Okuyucu"
         },
         {
           "label": "Location",
-          "value": "Amsterdam, Netherlands"
+          "value": "Istanbul, Turkey"
         },
         {
           "label": "Email",
-          "value": "mail@mail.com"
+          "value": "baharokuyucu@gmail.com"
         }
       ]
-    }
+    },
+    "aboutMe": {
+      "title": "About Me",
+        "content": "I'm a junior fullstack developer. I'm passionate about building scalable web applications and always eager to learn new technologies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut felis cursus ultricies. Nullam nec purus ut felis"
+      }
   },
   "projectsSection": {
     "title": "Projects",

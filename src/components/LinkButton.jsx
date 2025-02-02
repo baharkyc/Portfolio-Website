@@ -6,7 +6,7 @@ export default function LinkButton({children, href}) {
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-4 rounded flex gap-3 text-primary bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+            className="p-2 rounded  text-primary bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
             >
             {children}
         </a>

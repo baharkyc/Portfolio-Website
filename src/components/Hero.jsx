@@ -28,11 +28,10 @@ const Hero = () => {
             <div className="flex items-center justify-center md:justify-start space-x-4">
               <LinkButton href="https://github.com/baharkyc">
                 <Github className="w-6 h-6 "/>
-                Github
               </LinkButton>
               <LinkButton href="https://linkedin.com">
                 <Linkedin className="w-6 h-6 "/>                
-                Linkedin
+               
               </LinkButton>
               
             </div>

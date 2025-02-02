@@ -23,8 +23,8 @@ const Profile = () => {
         </h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 justify-between gap-12 mt-12 text-center sm:text-left">
-          <div className=''>
-            <h3 className="text-2xl tracking-wider font-light text-text-light dark:text-white mb-6">
+          <div className='profile-section-basic-info'>
+            <h3 className="text-2xl tracking-wider font-normal text-text-light dark:text-white mb-6">
               {profileSection.basicInfo.title}
             </h3> 
             <div className="space-y-6">
@@ -46,27 +46,12 @@ const Profile = () => {
               })}
             </div>
           </div>
-          <div className=''>
-            <h3 className="text-2xl tracking-wider font-light text-text-light dark:text-white mb-6">
-              {profileSection.basicInfo.title}
+          <div className='profile-section-about-me'>
+            <h3 className="text-2xl tracking-wider font-normal text-text-light dark:text-white mb-4">
+              {profileSection.aboutMe.title}
             </h3> 
-            <div className="space-y-6">
-              {profileSection.basicInfo.items.map((item) => {
-                const Icon = iconMap[item.label] || User;
-                
-                return (
-                  <div key={item.label} className="grid grid-cols-[1fr_2fr] gap-4">
-   
-                      <p className="text-sm font-bold text-secondary dark:text-gray-400">
-                        {item.label}
-                      </p>
-                      <p className="text-text-light font-light dark:text-white">
-                        {item.value}
-                      </p>
-
-                  </div>
-                );
-              })}
+            <div className="text-text-light font-light dark:text-white">
+              {profileSection.aboutMe.content}
             </div>
           </div>
           

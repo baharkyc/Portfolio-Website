@@ -16,11 +16,11 @@ const Projects = () => {
           {projectsSection.title}
         </h2>
         
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-row gap-8">
           {projectsSection.projects.map((project) => (
             <div
               key={project.title}
-              className="bg-white grid grid-cols-[1fr_2fr] dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="bg-white grid grid-cols-[2fr_3fr] dark:bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <img
                 src={`https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400`}
@@ -47,7 +47,7 @@ const Projects = () => {
                   ))}
                 </div>
                 
-                <div className="flex space-x-4">
+                <div className="projects-link flex space-x-4">
                   <a
                     href={project.links?.[0]?.link}
                     target="_blank"
