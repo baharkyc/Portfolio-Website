@@ -16,26 +16,26 @@ const Skills = () => {
   };
 
   return (
-    <section className="py-20 bg-gray-50 dark:bg-gray-800">
-      <div className="container">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-primary dark:text-white mb-12">
+    <section className="py-20  dark:bg-gray-800">
+      <div className="container grid grid-cols-[1fr_2fr] gap-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-start text-primary dark:text-white mb-12">
           {skillsSection.title}
         </h2>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 ">
           {skillsSection.skills.map((skill) => {
             const Icon = iconMap[skill.name] || Code2;
             
             return (
               <div
                 key={skill.name}
-                className="group p-6 bg-white dark:bg-gray-900 rounded-xl shadow-sm hover:shadow-md transition-all duration-300"
+                className="group py-2 dark:bg-gray-900 hover:shadow-sm rounded-xl transition-all duration-300"
               >
-                <div className="flex flex-col items-center space-y-4">
-                  <div className="p-3 bg-primary dark:bg-primary rounded-lg group-hover:scale-110 transition-transform duration-300">
+                <div className="flex py-6">
+                  <div className="px-4 dark:bg-primary rounded-lg group-hover:scale-110 transition-transform duration-300">
                     <Icon className="w-8 h-8 text-primary dark:text-primary" />
                   </div>
-                  <h3 className="text-lg font-semibold text-primary dark:text-white">
+                  <h3 className="text-lg font-normal text-text-grey dark:text-white">
                     {skill.name}
                   </h3>
                 </div>

@@ -25,14 +25,14 @@ const Projects = () => {
               <img
                 src={`https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400`}
                 alt={project.title}
-                className="h-full object-cover"
+                className="h-full aspect-square object-cover"
               />
               
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-primary dark:text-white mb-2">
+              <div className="p-12">
+                <h3 className="text-2xl font-bold text-primary dark:text-white mb-4">
                   {project.title}
                 </h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
+                <p className="text-gray-600 dark:text-gray-300 mb-6">
                   {project.description}
                 </p>
                 
@@ -40,7 +40,7 @@ const Projects = () => {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-text-light px-3 py-1 text-xs bg-primary dark:bg-primary dark:text-primary rounded-full"
+                      className="text-text-light px-3 py-2 text-xs bg-primary dark:bg-primary dark:text-primary rounded-full"
                     >
                       {tag}
                     </span>
@@ -52,7 +52,7 @@ const Projects = () => {
                     href={project.links?.[0]?.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
+                    className=""
                   >
                     <Github className="w-5 h-5" />
                     <span>GitHub</span>
@@ -61,10 +61,10 @@ const Projects = () => {
                     href={project.links?.[1]?.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-600 dark:hover:text-400 transition-colors"
+                    className=""
                   >
                     <ExternalLink className="w-5 h-5" />
-                    <span>Live Demo</span>
+                    <span>View Site</span>
                   </a>
                 </div>
               </div>

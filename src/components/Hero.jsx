@@ -40,7 +40,7 @@ const Hero = () => {
           
           <div className="flex-1">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop"
+              src="https://images.unsplash.com/photo-1683512611593-59aa784f5f16"
               alt="Profile"
               className="w-64 md:w-96 md:h-96 rounded-3xl aspect-square object-cover mx-auto shadow-2xl"
             />
