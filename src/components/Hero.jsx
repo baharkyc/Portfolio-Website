@@ -15,10 +15,10 @@ const Hero = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-secondary md:text-6xl font-bold dark:text-white mb-4">
+            <h1 className="text-secondary md:text-6xl font-bold dark:text-secondary mb-4">
               {heroSection.greeting}
             </h1>
-            <p className="text-xl md:text-2xl text-text-light dark:text-gray-300 mb-8">
+            <p className="text-xl md:text-2xl text-text-light  mb-8">
               {heroSection.intro}
             </p>
             <div 
@@ -31,7 +31,6 @@ const Hero = () => {
               </LinkButton>
               <LinkButton href="https://linkedin.com">
                 <Linkedin className="w-6 h-6 "/>                
-               
               </LinkButton>
               
             </div>

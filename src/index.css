@@ -4,5 +4,25 @@
 
 
 a {
-    @apply flex items-center space-x-2 text-gray-600 dark:text-gray-300 hover:text-primary hover:underline dark:hover:text-gray-300 transition-colors underline-offset-4;
+    @apply flex items-center space-x-2 text-text-grey dark:text-text-grey hover:text-primary hover:underline dark:hover:text-text-grey transition-colors underline-offset-4;
 }
+
+:root { /* css'te variable olarak renk tanımladık */
+    --primary: #4832D3;
+    --secondary: #CBF271;
+    --text-primary: #120B39;
+    --text-light: #ffffff;
+    --text-grey: #6B7280;
+}
+
+
+.dark {
+    --primary: #18204a;
+    --secondary: #c70202;
+    --text-primary: #ffffff;
+    --text-light: #c1c1c1;
+    --text-grey: #6B7280;
+}
+
+
+    
