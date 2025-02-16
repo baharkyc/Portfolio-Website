@@ -1,6 +1,6 @@
 {
   "headerSection": {
-    "title": "Bahar"
+    "title": "bahar"
   },
   "heroSection": {
     "greeting": "Merhaba!",
@@ -107,18 +107,13 @@
     "links": [
       {
         "label": "Github",
-        "link": "#",
+        "link": "https://github.com/baharkyc",
         "color": "black"
       },
       {
         "label": "Kişisel Blog",
         "link": "#",
         "color": "blue"
-      },
-      {
-        "label": "Instagram",
-        "link": "#",
-        "color": "orange"
       }
     ]
   }

@@ -19,7 +19,7 @@ const Footer = () => {
     <footer className="bg-light-bg pt-28 pb-10">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-text-grey mb-8">
             {footerSection.cta}
           </h2>
           
@@ -33,9 +33,9 @@ const Footer = () => {
                   href={link.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                  className="p-3 rounded-full bg-light-grey-bg hover:bg-gray-200 dark:hover:bg-dark-bg transition-colors"
                 >
-                  <Icon className="w-6 h-6 text-gray-700 dark:text-gray-300" />
+                  <Icon className="w-6 h-6 text-text-grey" />
                 </a>
               );
             })}

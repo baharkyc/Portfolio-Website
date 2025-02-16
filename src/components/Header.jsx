@@ -14,10 +14,9 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           <Link 
             to="/" 
-            className="text-2xl font-bold text-text-primary dark:text-primary hover:text-primary dark:hover:text-primary transition-colors"
-          >
+            className="text-2xl font-bold text-text-primary hover:text-text-light dark:hover:text-primary hover:decoration-dashed transition-all"
+            >
             {headerSection.title}
-            
           </Link>
       
           <div className="flex items-center space-x-4">

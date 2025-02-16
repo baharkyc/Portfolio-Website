@@ -12,6 +12,7 @@ export default {
         "text-grey": "var(--text-grey)",
         "light-bg": "var(--light-bg)",
         "dark-bg": "var(--dark-bg)",
+        "light-grey-bg": "var(--light-grey-bg)",
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],

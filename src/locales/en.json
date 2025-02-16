@@ -36,7 +36,15 @@
         "image": "icon-js.png"
       },
       {
-        "name": "react",
+        "name": "React",
+        "image": "react-js.png"
+      },
+      {
+        "name": "Java",
+        "image": "java.png"
+      },
+      {
+        "name": "SpringBoot",
         "image": "react-js.png"
       }
     ]
@@ -114,11 +122,6 @@
         "label": "Personal Blog",
         "link": "#",
         "color": "blue"
-      },
-      {
-        "label": "Instagram",
-        "link": "#",
-        "color": "orange"
       }
     ]
   }

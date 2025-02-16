@@ -7,6 +7,7 @@ import trData from '../locales/tr.json';
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
+
   const [language, setLanguage] = useState(() => {
     const savedLang = localStorage.getItem('language');
     if (savedLang) return savedLang;
@@ -36,11 +37,11 @@ export const LanguageProvider = ({ children }) => {
     fetchContent();
   }, [language]);
 
-  const toggleLanguage = () => {
-    const newLang = language === 'en' ? 'tr' : 'en';
+  const toggleLanguage = (newLang) => {
     setLanguage(newLang);
     localStorage.setItem('language', newLang);
   };
+
 
   return (
     <LanguageContext.Provider value={{ language, content, toggleLanguage, isLoading }}>
