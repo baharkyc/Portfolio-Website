@@ -8,11 +8,13 @@ export default {
         primary: "var(--primary-bg)",
         secondary: "var(--secondary-bg)",
         "text-primary": "var(--text-primary)",
+        "text-secondary": "var(--text-secondary)",
         "text-light": "var(--text-light)",
         "text-grey": "var(--text-grey)",
         "light-bg": "var(--light-bg)",
         "dark-bg": "var(--dark-bg)",
         "light-grey-bg": "var(--light-grey-bg)",
+        "light-purple-default": "#786eb9",
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
