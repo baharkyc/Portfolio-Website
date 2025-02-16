@@ -10,7 +10,7 @@ const Projects = () => {
   const { projectsSection } = content;
 
   return (
-    <section className="py-20 bg-secondary dark:bg-gray-800">
+    <section className="py-20 bg-secondary">
       <div className="container">
         <h2 className="text-3xl md:text-4xl font-bold text-start text-primary dark:text-white mb-12">
           {projectsSection.title}

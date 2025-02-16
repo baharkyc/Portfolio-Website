@@ -11,18 +11,18 @@ const Hero = () => {
   const { heroSection } = content;
 
   return (
-    <section className="relative py-20 overflow-hidden">
+    <section className=" relative py-20 overflow-hidden">
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-secondary md:text-6xl font-bold dark:text-secondary mb-4">
+            <h1 className="text-text-primary md:text-6xl font-bold mb-4">
               {heroSection.greeting}
             </h1>
             <p className="text-xl md:text-2xl text-text-light  mb-8">
               {heroSection.intro}
             </p>
             <div 
-              className="text-lg text-text-light dark:text-gray-200 mb-8"
+              className="text-lg text-text-light mb-8"
               dangerouslySetInnerHTML={{ __html: heroSection.ctaHTML }}
             />
             <div className="flex items-center justify-center md:justify-start space-x-4">

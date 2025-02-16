@@ -1,4 +1,7 @@
 {
+  "headerSection": {
+  "title": "bahar"
+},
   "heroSection": {
     "greeting": "Hi!",
     "intro": "I'm a fullstack developer.",

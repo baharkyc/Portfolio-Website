@@ -5,11 +5,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "var(--primary)",
-        secondary: "var(--secondary)",
+        primary: "var(--primary-bg)",
+        secondary: "var(--secondary-bg)",
         "text-primary": "var(--text-primary)",
         "text-light": "var(--text-light)",
         "text-grey": "var(--text-grey)",
+        "light-bg": "var(--light-bg)",
+        "dark-bg": "var(--dark-bg)",
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],

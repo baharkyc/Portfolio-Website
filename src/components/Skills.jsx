@@ -16,9 +16,9 @@ const Skills = () => {
   };
 
   return (
-    <section className="py-20  dark:bg-gray-800">
+    <section className="py-20 bg-light-bg">
       <div className="container grid grid-cols-[1fr_2fr] gap-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-start text-primary dark:text-white mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-start text-primary mb-12">
           {skillsSection.title}
         </h2>
         

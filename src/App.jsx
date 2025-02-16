@@ -25,12 +25,12 @@ function AppContent() {
   }
 
   return (
-    <div className="min-h-screen  ">
-      <div className='bg-gradient-to-r from-primary from-70% to-secondary to-70% backdrop-blur-sm'>
-        <Header />
+    <div className="min-h-screen ">
+      <div className="bg-gradient-to-r from-primary from-70% to-secondary to-70% backdrop-blur-sm">
+        <Header/>
         <Hero />
       </div>
-      <main className="pt-16">
+      <main>
         <Skills />
         <Profile />
         <Projects />

@@ -16,10 +16,10 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-white dark:bg-gray-900 py-12 mt-20">
+    <footer className="bg-light-bg pt-28 pb-10">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
             {footerSection.cta}
           </h2>
           

@@ -1,4 +1,7 @@
 {
+  "headerSection": {
+    "title": "Bahar"
+  },
   "heroSection": {
     "greeting": "Merhaba!",
     "intro": "Ben bir kahramanım",
@@ -31,6 +34,10 @@
       {
         "name": "JavaScript",
         "image": "icon-js.png"
+      },
+      {
+        "name": "react",
+        "image": "react-js.png"
       }
     ]
   },
@@ -52,7 +59,11 @@
           "value": "mail@mail.com"
         }
       ]
-    }
+    },
+    "aboutMe": {
+      "title": "About Me",
+        "content": "I'm a junior fullstack developer. I'm passionate about building scalable web applications and always eager to learn new technologies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut felis cursus ultricies. Nullam nec purus ut felis"
+      }
   },
   "projectsSection": {
     "title": "Projeler",
