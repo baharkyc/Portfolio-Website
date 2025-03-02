@@ -4,10 +4,10 @@
 
 
 a {
-    @apply flex items-center space-x-2 text-text-grey dark:text-text-grey hover:text-primary hover:underline dark:hover:text-text-grey transition-colors underline-offset-4;
+    @apply flex items-center space-x-2 text-text-grey dark:text-text-grey dark:hover:text-text-grey transition-colors underline-offset-4;
 }
 
-:root { /* css'te variable olarak renk tanımladık */
+:root { 
     --primary-bg: #4832D3;
     --secondary-bg: #CBF271;
     --text-primary: #CBF271;

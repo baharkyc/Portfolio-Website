@@ -4,7 +4,7 @@
   },
   "heroSection": {
     "greeting": "Merhaba!",
-    "intro": "Ben bir kahramanım",
+    "intro": "Ben Bahar, fullstack developerım.",
     "profileImage": "profile-image.jpg",
     "socials": [
       {
@@ -18,7 +18,7 @@
         "link": "https://github.com/baharkyc"
       }
     ],
-    "ctaHTML": "<strong>Amsterdam</strong>'da <strong>Frontend Developer</strong> olarak iş arıyorum"
+    "ctaHTML": "<strong>İstanbul</strong>'da <strong>FullStack Developer</strong> olarak iş arıyorum"
   },
   "skillsSection": {
     "title": "Yetenekler",
@@ -62,7 +62,7 @@
     },
     "aboutMe": {
       "title": "About Me",
-        "content": "I'm a junior fullstack developer. I'm passionate about building scalable web applications and always eager to learn new technologies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut felis cursus ultricies. Nullam nec purus ut felis"
+        "content": "Ben junior bir fullstack developerım. Ölçeklenebilir web uygulamaları oluşturma konusunda tutkuluyum ve her zaman yeni teknolojileri öğrenmeye istekliyim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec purus ut felis cursus ultricies. Nullam nec purus ut feli"
       }
   },
   "projectsSection": {
@@ -103,7 +103,7 @@
     ]
   },
   "footerSection": {
-    "cta": "Birlikte çalışalım",
+    "cta": "Birlikte çalışalım!",
     "links": [
       {
         "label": "Github",

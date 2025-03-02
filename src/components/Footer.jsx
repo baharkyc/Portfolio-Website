@@ -19,7 +19,7 @@ const Footer = () => {
     <footer className="bg-light-bg pt-28 pb-10">
       <div className="container">
         <div className="text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-text-grey mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-text-secondary mb-8">
             {footerSection.cta}
           </h2>
           
@@ -33,15 +33,15 @@ const Footer = () => {
                   href={link.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-3 rounded-full bg-light-grey-bg hover:bg-gray-200 dark:hover:bg-dark-bg transition-colors"
+                  className="p-3 rounded-full  hover:bg-light-grey-bg  transition-colors"
                 >
-                  <Icon className="w-6 h-6 text-text-grey" />
+                  <Icon className="w-6 h-6 text-text-secondary" />
                 </a>
               );
             })}
           </div>
           
-          <p className="mt-8 text-gray-500 dark:text-gray-400">
+          <p className="mt-8 text-text-secondary ">
             © {new Date().getFullYear()} Portfolio. All rights reserved.
           </p>
         </div>

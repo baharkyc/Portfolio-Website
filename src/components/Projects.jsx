@@ -20,7 +20,7 @@ const Projects = () => {
           {projectsSection.projects.map((project) => (
             <div
               key={project.title}
-              className="grid grid-cols-[2fr_3fr] bg-light-grey-bg rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="grid grid-cols-[2fr_3fr] bg-light-bg rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <img
                 src={`https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=400`}
@@ -54,8 +54,8 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className=""
                   >
-                    <Github className="w-5 h-5 text-text-primary" />
-                    <span className="text-xs text-text-primary">GitHub</span>
+                    <Github className="w-5 h-5 text-text-secondary" />
+                    <span className="text-xs text-text-secondary">GitHub</span>
                   </a>
                   <a
                     href={project.links?.[1]?.link}
@@ -63,8 +63,8 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className=""
                   >
-                    <ExternalLink className="w-5 h-5 text-text-primary" />
-                    <span className="text-xs text-text-primary">View Site</span>
+                    <ExternalLink className="w-5 h-5 text-text-secondary" />
+                    <span className="text-xs text-text-secondary">View Site</span>
                   </a>
                 </div>
               </div>

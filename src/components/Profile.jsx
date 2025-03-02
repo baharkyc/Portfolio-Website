@@ -34,10 +34,10 @@ const Profile = () => {
                 return (
                   <div key={item.label} className="grid grid-cols-[1fr_2fr] gap-4">
    
-                      <p className="text-sm font-bold text-text-primary">
+                      <p className="text-s font-bold text-text-primary">
                         {item.label}
                       </p>
-                      <p className="text-text-light font-light">
+                      <p className="text-s text-text-light font-light">
                         {item.value}
                       </p>
 
@@ -50,7 +50,7 @@ const Profile = () => {
             <h3 className="text-2xl tracking-wider font-normal text-text-light mb-4">
               {profileSection.aboutMe.title}
             </h3> 
-            <div className="text-text-light font-light dark:text-white">
+            <div className="text-s text-text-light font-light">
               {profileSection.aboutMe.content}
             </div>
           </div>

@@ -15,6 +15,7 @@ export default function LanguageMenu() {
         toggleLanguage(lang);
         setIsOpen(false);
     };
+    
 
     return (
         <div className="language-menu relative">
